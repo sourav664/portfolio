@@ -102,7 +102,8 @@
         <h3>Languages, Tools, Databases & Cloud Platforms</h3>
         <p><strong>Languages:</strong> Python, SQL </p>
         <p><strong>Tools:</strong> Git, GitHub, Docker, VS Code, Mlflow, DVC, Github Action</p>
-        <p><strong>Databases:</strong> MySQL, MongoDB, ChromaDB</p>
+        <p><strong>Analytics & BI:</strong> MS Excel, Power BI</p>
+        <p><strong>Databases:</strong> MySQL, MongoDB, ChromaDB, Pinecone (Vector DB)</p>
         <p><strong>Cloud Platforms:</strong> AWS</p>
       </div>
       <div class="feature-box">
@@ -112,6 +113,9 @@
         <p><strong>Machine Learning:</strong> Scikit-learn, XGBoost, LightGBM</p>
         <p><strong>Deep Learning:</strong> TensorFlow, PyTorch, Keras</p>
         <p><strong>API:</strong> Flask, FastAPI</p>
+        <p><strong>AI Frameworks:</strong> Langchain, Langgraph</p>
+        <p><strong>AI Techniques:</strong> RAG (Retrieval-Augmented Generation)</p>
+
       </div>
     </div>
   </div>
@@ -126,13 +130,25 @@
     </header>
     <div class="project-grid">
       <div class="project-card">
+        <img src="images/medical-chatbot.png" alt="Medical Chatbot" class="project-image">
+        <h3>Medical Chatbot</h3>
+        <p>Built a medical chatbot that uses a PDF medical textbook as its knowledge base through LangChain, RAG, and Pinecone for accurate, context-aware answers. 
+          The application was developed with Flask and containerized using Docker, then deployed on AWS EC2 with images managed in ECR. A CI/CD pipeline automates updates, ensuring smooth and reliable deployments.
+        </p>
+        <p><strong>Tools:</strong> <span class="tag">Python</span>  <span class="tag">Flask</span> <span class="tag">LangChain</span>
+             <span class="tag">RAG</span>  <span class="tag">Pinecone (vector database)</span>  <span class="tag">Docker</span>
+             <span class="tag">AWS EC2</span> <span class="tag">AWS ECR</span> <span class="tag">GithubAction</span>
+        </p>
+        <a href="https://github.com/sourav664/Medical-Chatbot" target="_blank" class="btn btn-outline-link">View Code</a>
+      </div>
+      <div class="project-card">
         <img src="images/twitter.png" alt="Twitter Sentiment Analysis" class="project-image">
         <h3>Twitter Sentiment Analysis</h3>
         <p>Developed a Twitter Sentiment Analysis model using PyTorch with LSTM, processing 50,000 tweets with SpaCy and NLTK for text preprocessing.
           Optimized model hyperparameters with Optuna, achieving a 90% accuracy on test data.
         </p>
-        <p><strong>Tools:</strong> <span class="tag">Python</span>, <span class="tag">Pandas</span>, <span class="tag">Scikit-learn</span>, <span class="tag">Streamlit</span>
-            <span class="tag">PyTorch</span>, <span class="tag">LSTM</span>,<span class="tag">Optuna</span>, <span class="tag">SpaCy</span>, <span class="tag">NLTK</span>
+        <p><strong>Tools:</strong> <span class="tag">Python</span> <span class="tag">Pandas</span> <span class="tag">Scikit-learn</span> <span class="tag">Streamlit</span>
+            <span class="tag">PyTorch</span> <span class="tag">LSTM</span> <span class="tag">Optuna</span> <span class="tag">SpaCy</span> <span class="tag">NLTK</span>
         </p>
         <a href="https://github.com/sourav664/twitter-sentiments-analysis" target="_blank" class="btn btn-outline-link">View Code</a>
       </div>
@@ -143,9 +159,9 @@
           Integrated DVC, MLflow, and Docker to automate model training and deployment. 
           Implemented CI/CD workflows for scalable ML delivery.
         </p>
-        <p><strong>Tools:</strong> <span class="tag">Python</span>, <span class="tag">Pandas</span>, <span class="tag">Scikit-learn</span>, <span class="tag">Streamlit</span>
-            <span class="tag">DVC</span>, <span class="tag">MLflow</span>, <span class="tag">Docker</span>, <span class="tag">GithubAction</span>, <span class="tag">AWS S3</span>,
-            <span class="tag">AWS EC2</span>, <span class="tag">AWS ECR</span>, <span class="tag">AWS CodeDeploy</span>
+        <p><strong>Tools:</strong> <span class="tag">Python</span> <span class="tag">Pandas</span> <span class="tag">Scikit-learn</span> <span class="tag">Streamlit</span>
+            <span class="tag">DVC</span> <span class="tag">MLflow</span> <span class="tag">Docker</span> <span class="tag">GithubAction</span> <span class="tag">AWS S3</span>
+            <span class="tag">AWS EC2</span> <span class="tag">AWS ECR</span> <span class="tag">AWS CodeDeploy</span>
           </p>
         <a href="https://github.com/sourav664/spotify-hybrid-recommender-system" target="_blank" class="btn btn-outline-link">View Code</a>
       </div>
@@ -154,11 +170,10 @@
         <h3>Uber Demand Prediction</h3>
         <p>Built a Regression Model to predict Uber ride demand using Linear Regression with feature extraction via Mini-Batch K-Means Clustering for improved prediction accuracy.
           Implemented a reproducible ML pipeline by integrating DVC, MLflow, and Docker to automate model training, tracking, and deployment. </p>
-        <p><strong>Tools:</strong> <span class="tag">Python</span>, <span class="tag">Pandas</span>, <span class="tag">Scikit-learn</span>, <span class="tag">Linear Regression</span>, 
-            <span class="tag">Mini-Batch K-Means Clustering</span>, <span class="tag">Streamlit</span>
-            <span class="tag">DVC</span>, <span class="tag">MLflow</span>, <span class="tag">Docker</span>, <span class="tag">GithubAction</span>,
-            <span class="tag">AWS S3</span>,
-            <span class="tag">AWS EC2</span>, <span class="tag">AWS ECR</span>, <span class="tag">AWS CodeDeploy</span>
+        <p><strong>Tools:</strong> <span class="tag">Python</span> <span class="tag">Pandas</span> <span class="tag">Scikit-learn</span> <span class="tag">Linear Regression</span> 
+            <span class="tag">Mini-Batch K-Means Clustering</span> <span class="tag">Streamlit</span>
+            <span class="tag">DVC</span> <span class="tag">MLflow</span> <span class="tag">Docker</span> <span class="tag">GithubAction</span>
+            <span class="tag">AWS S3</span> <span class="tag">AWS EC2</span> <span class="tag">AWS ECR</span> <span class="tag">AWS CodeDeploy</span>
           </p>
         <a href="https://github.com/sourav664/uber-demand-prediction" target="_blank" class="btn btn-outline-link">View Code</a>
       </div>
@@ -168,10 +183,9 @@
         <p>Developed a regression model to predict delivery time using stacked models of LGBMRegressor, RandomForestRegressor and Linear Regression. 
           Integrated DVC, MLflow, and Docker to automate model training and deployment. 
           Implemented CI/CD workflows for scalable ML delivery. Achieved R² score of 0.84.</p>
-        <p><strong>Tools:</strong> <span class="tag">Python</span>, <span class="tag">Pandas</span>, <span class="tag">Scikit-learn</span>, <span class="tag">LightGBM</span>, <span class="tag">Streamlit</span>
-            <span class="tag">DVC</span>, <span class="tag">MLflow</span>, <span class="tag">Docker</span>, <span class="tag">GithubAction</span>,
-             <span class="tag">AWS S3</span>,
-            <span class="tag">AWS EC2</span>, <span class="tag">AWS ECR</span>, <span class="tag">AWS CodeDeploy</span>
+        <p><strong>Tools:</strong> <span class="tag">Python</span> <span class="tag">Pandas</span> <span class="tag">Scikit-learn</span> <span class="tag">LightGBM</span> 
+          <span class="tag">Streamlit</span> <span class="tag">DVC</span> <span class="tag">MLflow</span> <span class="tag">Docker</span> <span class="tag">GithubAction</span>
+             <span class="tag">AWS S3</span> <span class="tag">AWS EC2</span> <span class="tag">AWS ECR</span> <span class="tag">AWS CodeDeploy</span>
           </p>
         <a href="https://github.com/sourav664/swiggy-delivery-time-prediction" target="_blank" class="btn btn-outline-link">View Code</a>
       </div>
@@ -179,8 +193,8 @@
         <img src="images/startup.jpg" alt="Startup Analysis" class="project-image">
         <h3>Indian Startup Analysis</h3>
         <p>Analyzed funding trends of Indian startups using Pandas, NumPy, Matplotlib, Seaborn, and Plotly.</p>
-        <p><strong>Tools:</strong> <span class="tag">Python</span>, <span class="tag">Pandas</span>, <span class="tag">NumPy</span>, <span class="tag">Matplotlib</span>, <span class="tag">Seaborn</span>, 
-          <span class="tag">Plotly</span>, <span class="tag">Streamlit</span></p>
+        <p><strong>Tools:</strong> <span class="tag">Python</span> <span class="tag">Pandas</span> <span class="tag">NumPy</span> <span class="tag">Matplotlib</span> 
+          <span class="tag">Seaborn</span> <span class="tag">Plotly</span> <span class="tag">Streamlit</span></p>
         <a href="https://github.com/sourav664/startup-analysis-using-streamlit" target="_blank" class="btn btn-outline-link">View Code</a>
       </div>
 
@@ -188,7 +202,7 @@
         <img src="images/ipl.png" alt="IPL API" class="project-image">
         <h3>IPL API Using Flask</h3>
         <p>Developed a Flask API for IPL.</p>
-        <p><strong>Tools:</strong> <span class="tag">Python</span>, <span class="tag">Pandas</span>, <span class="tag">NumPy</span>, <span class='tag'>JSON</span>, 
+        <p><strong>Tools:</strong> <span class="tag">Python</span> <span class="tag">Pandas</span> <span class="tag">NumPy</span> <span class='tag'>JSON</span> 
           <span class="tag">Flask</span></p>
         <a href="https://github.com/sourav664/ipl-api-flask" target="_blank" class="btn btn-outline-link">View Code</a>
       </div>
@@ -260,11 +274,39 @@
 <div class="container swiper">
   <div class="card-wrapper">
     <ul class="card-list swiper-wrapper">
+       <li class="card-item swiper-slide">
+        <a href="https://medium.com/@souravraj664/decision-tree-the-backbone-of-all-tree-based-algorithms-8bd98eeb53b9"  target="_blank" class="card-link">
+          <img src="images/decision-tree.png" alt="" class="card-image">
+          <h2 class="card-title">Decision Tree: The Backbone of All Tree-Based Algorithms</h2>
+          <p class="blog-date">December 3, 2025</p>
+        </a>
+      </li>
+       <li class="card-item swiper-slide">
+        <a href="https://medium.com/@souravraj664/understanding-k-nn-how-it-works-and-when-to-use-it-810f534796ed"  target="_blank" class="card-link">
+          <img src="images/knn.png" alt="" class="card-image">
+          <h2 class="card-title">Understanding K-NN: How It Works and When to Use It</h2>
+          <p class="blog-date">November 9, 2025</p>
+        </a>
+      </li>
+       <li class="card-item swiper-slide">
+        <a href="https://medium.com/@souravraj664/an-introduction-to-support-vector-machines-svm-be32dbfb7332"  target="_blank" class="card-link">
+          <img src="images/svm.png" alt="" class="card-image">
+          <h2 class="card-title">An Introduction to Support Vector Machines (SVM)</h2>
+          <p class="blog-date">October 3, 2025</p>
+        </a>
+      </li>
+       <li class="card-item swiper-slide">
+        <a href="https://medium.com/@souravraj664/principal-component-analysis-pca-a-beginner-friendly-guide-to-dimensionality-reduction-2f8a7ca8d775"  target="_blank" class="card-link">
+          <img src="images/pca.png" alt="" class="card-image">
+          <h2 class="card-title"> PCA: A Beginner-Friendly Guide to Dimensionality Reduction</h2>
+          <p class="blog-date">September 7, 2025</p>
+        </a>
+      </li>
       <li class="card-item swiper-slide">
         <a href="https://medium.com/@souravraj664/logistic-regression-for-classification-problems-3f5185eb0da7"  target="_blank" class="card-link">
           <img src="images/logistic_regression.png" alt="" class="card-image">
           <h2 class="card-title">Logistic Regression for Classification Problems</h2>
-          <p class="blog-date">August 23, 2025</p>
+          <p class="blog-date">August 24, 2025</p>
         </a>
       </li>
       <li class="card-item swiper-slide">
